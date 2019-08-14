@@ -18,10 +18,10 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div className='layout'>
         <Navigation></Navigation>
         <main>{children}</main>
-    </>
+    </div>
   )
 }
 
