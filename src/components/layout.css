@@ -624,3 +624,11 @@ pre tt:after {
 .layout {
   display: flex;
 }
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 120px;
+}
